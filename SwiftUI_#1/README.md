@@ -67,7 +67,7 @@ UIKit 을 사용했을 때는 어떠한 변수에 변화가 생기면 해당 변
 
 이 코드를 실행시키면 "Cannot use mutating member on immutable value: 'self' is immutable"라는 에러가 발생한다.
 
-SwiftUI에서는 상태를 변경하는 변수를 사용하기 위해서 **@State** 어노테이션을 사용해야한다.
+SwiftUI에서는 상태를 변경하는 변수를 사용하기 위해서 **@State** 어노테이션을 사용해야한다!
 
 ```swift
     @State
