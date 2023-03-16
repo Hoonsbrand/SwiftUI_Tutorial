@@ -12,6 +12,7 @@
 		728E40DC29C331DE00B25D9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728E40DB29C331DE00B25D9D /* Assets.xcassets */; };
 		728E40DF29C331DE00B25D9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728E40DE29C331DE00B25D9D /* Preview Assets.xcassets */; };
 		728E40E729C3324C00B25D9D /* MyWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728E40E629C3324C00B25D9D /* MyWebview.swift */; };
+		728E40E929C346A900B25D9D /* WebviewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728E40E829C346A900B25D9D /* WebviewButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		728E40DE29C331DE00B25D9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		728E40E529C3322C00B25D9D /* SwiftUI--2-Webview-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftUI--2-Webview-Info.plist"; sourceTree = SOURCE_ROOT; };
 		728E40E629C3324C00B25D9D /* MyWebview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebview.swift; sourceTree = "<group>"; };
+		728E40E829C346A900B25D9D /* WebviewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				728E40D929C331DD00B25D9D /* ContentView.swift */,
 				728E40DB29C331DE00B25D9D /* Assets.xcassets */,
 				728E40DD29C331DE00B25D9D /* Preview Content */,
+				728E40E829C346A900B25D9D /* WebviewButton.swift */,
 			);
 			path = "SwiftUI_#2_Webview";
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				728E40DA29C331DD00B25D9D /* ContentView.swift in Sources */,
 				728E40E729C3324C00B25D9D /* MyWebview.swift in Sources */,
 				728E40D829C331DD00B25D9D /* SwiftUI__2_WebviewApp.swift in Sources */,
+				728E40E929C346A900B25D9D /* WebviewButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -53,7 +53,7 @@ UIKit 을 사용했을 때는 어떠한 변수에 변화가 생기면 해당 변
 * 현재 뷰 UI의 특정 상태를 저장하기 귀해 만들어진 것이기 때문에 보통 private
 * @State 속성으로 어떤 프로퍼티의 초기값을 지정했다면, 다른 값으로 재할당 불가, @Binding 변수를 통해서만 가능
 
-```
+```swift
     private var isActivated: Bool = false
     
     var body: some View {
@@ -69,7 +69,7 @@ UIKit 을 사용했을 때는 어떠한 변수에 변화가 생기면 해당 변
 
 SwiftUI에서는 상태를 변경하는 변수를 사용하기 위해서 **@State** 어노테이션을 사용해야한다.
 
-```
+```swift
     @State
     private var isActivated: Bool = false
 ```
@@ -78,7 +78,7 @@ SwiftUI에서는 상태를 변경하는 변수를 사용하기 위해서 **@Stat
 
 ![1](https://user-images.githubusercontent.com/63503972/224468947-f927174e-fdf5-4683-ac51-8abf8c0c7e07.gif)
 
-```
+```swift
     // @State 값의 변화를 감지 -> View에 적용
     @State
     private var isActivated: Bool = false
@@ -114,7 +114,7 @@ UIView의 animate와 같은 기능을 하는 것 같다.
 ## ✏️NavigationView
 ![2](https://user-images.githubusercontent.com/63503972/224469741-52f1c825-f700-445e-af2d-8283419b329f.gif)
 
-```
+```swift
         NavigationView {
             VStack {
                 HStack {
@@ -147,7 +147,7 @@ NavigationLink를 통해 이동할 View와 내비게이션 버튼을 세팅해�
 ## ✏️Spacer
 <img width="332" alt="image" src="https://user-images.githubusercontent.com/63503972/224488729-8bb2ccdd-64bb-49d8-9452-92d4067c2b7f.png">
 
-```
+```swift
         VStack {
             Spacer()
             
@@ -180,7 +180,7 @@ Spacer를 위에만 준 모습이다.
 
 기존 화면과 다르게 터치를 했을 때 MyStackView의 Color와 padding이 변하는 것을 볼 수 있다.
 
-```
+```swift
 struct MyVStackView: View {
     
     // 데이터를 연동시킨다
@@ -216,7 +216,7 @@ struct MyVStackView: View {
 생성자를 통해 isActivated 변수에 값을 할당하며 기본값은 false로 설정하였다.
 그 후 isActivated의 상태에 따라 색깔과 padding이 변화한다.
 
-```
+```swift
 struct ContentView: View {
     
     // @State 값의 변화를 감지 -> View에 적용
@@ -259,7 +259,7 @@ ContentView에서 MyStackView를 생성자를 통해 생성한다.
 
 
 ![5](https://user-images.githubusercontent.com/63503972/225249623-b24dcbb2-fa06-42f9-a05f-74e4692c3db8.gif)
-```
+```swift
 struct MyTextView: View {
     
     // 데이터를 연동시킨다
@@ -287,7 +287,7 @@ struct MyTextView: View {
 MyTextView에도 동일하게 바인딩 프로퍼티와 생성자를 만들어주고 상태에 따른 UI처리를 해준다.
 
 
-```
+```swift
 // ContentView
 NavigationLink(destination: MyTextView(isActivated: $isActivated)) {
     // ...

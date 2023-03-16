@@ -9,13 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        
+        NavigationView {
+            
+            HStack {
+                WebviewButton(url: "https://www.naver.com", webname: "네이버", buttonColor: Color.green)
+                WebviewButton(url: "https://www.daum.net",webname: "다음", buttonColor: Color.orange)
+                WebviewButton(url: "https://www.google.com", webname: "구글", buttonColor: Color.blue)
+            }
         }
-        .padding()
     }
 }
 
