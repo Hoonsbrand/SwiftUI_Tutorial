@@ -52,9 +52,9 @@ SwiftUI에서 UIKit의 UIView를 사용하고 싶을 때 UIViewRepresentable 프
 * UIViewRepresentable의 2가지를 필수로 정의하여 사용
     - **makeUIView(context:) -> Self.UiViewType**: UIView를 생성하고 초기화
     - **updateUIView(_:, context:)**: UIView 업데이트가 필요할 때 호출하는 메서드
+<br>
+<br>
 
-<br>
-<br>
 ## ✏️ ContentView (기존 코드)
 ```swift
 import SwiftUI
@@ -108,9 +108,9 @@ struct ContentView_Previews: PreviewProvider {
 ```
 
 강의에서 제공한 기존 코드인데, 3개의 NavigationLink가 반복되어서 새로운 View를 만들어 코드 중복을 해결하였다.
+<br>
+<br>
 
-<br>
-<br>
 ## ✏️ WebviewButton (코드 중복을 피하기 위한 재활용 할 View)
 ```swift
 import SwiftUI
@@ -147,6 +147,7 @@ struct WebviewButton: View {
 ```
 <br>
 <br>
+
 ## ✏️ ContentView (바꾼 코드)
 ```swift
 import SwiftUI
