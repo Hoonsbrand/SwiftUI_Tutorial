@@ -108,12 +108,15 @@ struct ContentView_Previews: PreviewProvider {
 - **truncationModetruncationMode**
     - 텍스트의 길이가 View의 크기보다 길때 잘리는 위치를 설정할 수 있으며, head, middle, tail의 옵션이 있다.
     - **head**
+    <br>
         <img width="301" alt="image" src="https://user-images.githubusercontent.com/63503972/226116018-e70a1152-5ca4-4647-a743-b41d694a2359.png">
     
     - **middle**
+        <br>
         <img width="311" alt="image" src="https://user-images.githubusercontent.com/63503972/226116133-ecd45721-3cb6-4771-b981-be3cf70be676.png">
         
     - **tail**
+        <br>
         <img width="303" alt="image" src="https://user-images.githubusercontent.com/63503972/226116153-5602d96b-e40b-49b5-a4bb-eb7fdf25a07e.png">
     
 - **shadow**
@@ -122,8 +125,10 @@ struct ContentView_Previews: PreviewProvider {
         - x, y를 통해 그림자의 위치를 설정할 수 있다.
         - radius는 범위라고 생각하면 된다. 값이 커질수록 그림자의 범위가 커져서 흐려지게 보인다.
             - **radius = 1.5**
+                <br>
                 <img width="317" alt="image" src="https://user-images.githubusercontent.com/63503972/226116499-3c748933-f309-4612-b380-d354498aca25.png">
             - **radius = 3**
+                <br>
                 <img width="315" alt="image" src="https://user-images.githubusercontent.com/63503972/226116551-3302daa1-48dc-43fb-9043-21b90c2f6397.png">
 
 <br>
