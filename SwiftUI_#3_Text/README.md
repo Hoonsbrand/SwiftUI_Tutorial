@@ -212,6 +212,7 @@ Text("타입 테스트 4")
 이 문제는 간단하게 cornerRadius를 노란색 background 다음에 적용시키면 해결이 가능하다.
 <br>
 <br>
+<br>
 
 - 해결한 코드
 ```swift
