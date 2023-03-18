@@ -129,12 +129,12 @@ struct ContentView_Previews: PreviewProvider {
         - radius는 범위라고 생각하면 된다. 값이 커질수록 그림자의 범위가 커져서 흐려지게 보인다.
         <br>
         
-            - **radius = 1.5**
-                <br>
-                <img width="317" alt="image" src="https://user-images.githubusercontent.com/63503972/226116499-3c748933-f309-4612-b380-d354498aca25.png">
-            - **radius = 3**
-                <br>
-                <img width="315" alt="image" src="https://user-images.githubusercontent.com/63503972/226116551-3302daa1-48dc-43fb-9043-21b90c2f6397.png">
+        - **radius = 1.5**
+            <br>
+            <img width="317" alt="image" src="https://user-images.githubusercontent.com/63503972/226116499-3c748933-f309-4612-b380-d354498aca25.png">
+        - **radius = 3**
+            <br>
+            <img width="315" alt="image" src="https://user-images.githubusercontent.com/63503972/226116551-3302daa1-48dc-43fb-9043-21b90c2f6397.png">
 
 <br>
 <br>
