@@ -120,12 +120,15 @@ struct ContentView_Previews: PreviewProvider {
     - **tail**
         <br>
         <img width="303" alt="image" src="https://user-images.githubusercontent.com/63503972/226116153-5602d96b-e40b-49b5-a4bb-eb7fdf25a07e.png">
+        <br>
     
 - **shadow**
     - shadow는 텍스트의 그림자를 설정할 수 있다.
         - color는 그림자의 색을 지정한다.
         - x, y를 통해 그림자의 위치를 설정할 수 있다.
         - radius는 범위라고 생각하면 된다. 값이 커질수록 그림자의 범위가 커져서 흐려지게 보인다.
+        <br>
+        
             - **radius = 1.5**
                 <br>
                 <img width="317" alt="image" src="https://user-images.githubusercontent.com/63503972/226116499-3c748933-f309-4612-b380-d354498aca25.png">
