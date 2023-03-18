@@ -180,12 +180,12 @@ Text("타입 테스트 4")
 
 ### 2-1. 첫 번째 예시
 
-- 원했던 결과
+- 원했던 결과 <br>
     <img width="376" alt="image" src="https://user-images.githubusercontent.com/63503972/226117333-734f1ac5-9532-4169-89fe-2115257a7bf2.png">
 <br>
 <br>
 
-- 실제 모습
+- 실제 모습 <br>
     <img width="374" alt="image" src="https://user-images.githubusercontent.com/63503972/226117453-6c68a366-9250-404f-84cf-92c0204ee7d4.png">    
 <br>
 <br>
