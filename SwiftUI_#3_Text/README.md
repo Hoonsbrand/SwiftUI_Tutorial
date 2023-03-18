@@ -108,6 +108,7 @@ struct ContentView_Previews: PreviewProvider {
 - **truncationModetruncationMode**
     - 텍스트의 길이가 View의 크기보다 길때 잘리는 위치를 설정할 수 있으며, head, middle, tail의 옵션이 있다.
     <br>
+    
     - **head**
         <br>
         <img width="301" alt="image" src="https://user-images.githubusercontent.com/63503972/226116018-e70a1152-5ca4-4647-a743-b41d694a2359.png">
