@@ -68,18 +68,23 @@ struct CircleImageView: View {
     
 - **resizable**
     - 이미지를 화면의 사이즈에 맞춘다. ex) 이미지의 크기가 화면의 크기보다 클 때 사용
+<br>
     
 - **scaleToFill**
     - aspectRatio와 동일
+<br>
 
 - **frame** 
     - 이미지 크기 조절
+<br>
 
 - **clipShape**
     - 이미지를 지정한 모양으로 자른다.
+<br>
     
 - **shadow**
     - 이미지 그림자 설정
+<br>
     
 - **overlay**
     - 뷰 원본의 공간을 기준으로 그 위에 새로운 뷰를 중첩하여 쌓는 기능을 한다.
@@ -238,6 +243,8 @@ backgroundImage는 보이는 것처럼 frame을 통해 높이를 10으로 설정
 <br>
 
 높이를 10으로 설정한 frame에 색을 적용해 어떤식으로 CircleImageView와 간격을 설정했는지 보자.
+<br>
+
 <img width="403" alt="image" src="https://user-images.githubusercontent.com/63503972/226319540-b5614858-8397-42fe-95d2-aa80dfac260d.png">
 
 ```swift
