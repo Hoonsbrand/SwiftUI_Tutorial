@@ -15,10 +15,12 @@ struct CircleImageView: View {
 //            .shadow(color: .gray, radius: 2, x: 2, y: 10)
         
         Image("backgroundImage")
-            .resizable()
+//            .resizable()
             .frame(width: 100, height: 100)
+            .clipped()
             
             
+//
 //        Image("hoonImage") // SwiftUI에서는 파라미터 없이 이미지의 이름만 넣어주면 된다.
 //            .resizable() // 이미지를 화면의 사이즈에 맞춘다.
 //            .scaledToFill() // aspectRatio와 동일
@@ -29,6 +31,11 @@ struct CircleImageView: View {
 //                Circle()
 //                .foregroundColor(.black)
 //                .opacity(0.5)
+//            )
+//            .overlay(            // 뷰를 중첩시킨다.
+//                Circle()
+//                .stroke(Color.blue,
+//                        lineWidth: 10)
 //            )
 //            .overlay(            // 뷰를 중첩시킨다.
 //                Circle()
@@ -43,20 +50,15 @@ struct CircleImageView: View {
 //                .padding(30)
 //            )
 //            .overlay(            // 뷰를 중첩시킨다.
-//                Circle()
-//                .stroke(Color.blue,
-//                        lineWidth: 10)
-//            )
-//            .overlay(            // 뷰를 중첩시킨다.
 //                Text("Hoon").foregroundColor(.white)
 //                    .font(.system(size: 50))
 //                    .fontWeight(.bold)
 //            )
-        
+//
 //            .aspectRatio(contentMode: .fill) // 비율
-//            .clipped() // 설정한 이미지의 크기 이상을 자른다.
+////            .clipped() // 설정한 이미지의 크기 이상을 자른다.
 //            .edgesIgnoringSafeArea(.all) // SafeArea 무시
-        
+//
     }
 }
 
@@ -65,4 +67,6 @@ struct CircleImageView_Previews: PreviewProvider {
         CircleImageView()
     }
 }
+
+
 
