@@ -141,30 +141,31 @@ Image("hoonImage") // SwiftUI에서는 파라미터 없이 이미지의 이름�
 <br>
 <br>
 
-1. 이미지 띄우기
+1. **이미지 띄우기**
 - 원형 모양으로 다듬은 후 그림자 효과를 주었다.
+<br>
 
-2. 어두운 효과 주기
+2. **어두운 효과 주기**
 - Image 위에 opacity 0.5 만큼의 검은 원형 View를 overlay 한다. 
 - padding을 따로 주지 않았기 때문에 상위 View와 동일한 크기로 만들어진다.
 <br>
 
-3. 파란색 테두리 overlay 
+3. **파란색 테두리 overlay** 
 - Circle 자체에는 색을 입히지 않고 stroke를 통해 굵기 10만큼의 테두리를 만들고 파란색을 적용했다.
 - padding을 주지 않았기 때문에 Image의 테두리에 적용이 된 것처럼 보인다.
 <br>
 
-4. 빨간색 테두리 overlay
+4. **빨간색 테두리 overlay**
 - stroke를 통해 굵기 10만큼의 테두리를 만들고 빨간색을 적용했다.
 - padding을 기본값만큼 주어 파란색 선과의 간격을 주었다.
 <br>
 
-5. 노란색 테두리 overlay
+5. **노란색 테두리 overlay**
 - stroke를 통해 굵기 10만큼의 테두리를 만들고 노란색을 적용했다.
 - padding을 30만큼 주어 빨간색 선과의 간격을 주었는데, 이는 상위 View 즉, Image에 대한 padding이다.
 <br>
 
-6. Text 띄우기
+6. **Text 띄우기**
 - 마지막으로 "Hoon"이라는 텍스트를 띄운다. 
 <br>
 <br>
@@ -217,7 +218,11 @@ struct ContentView: View {
 > ContentView는 VStack안에 HStack이 들어있는 형태로 구성되어 있다.
     backgroundImage -> CircleImageView -> (NavigationLink -HStack- NavigationLink)
     
-    이 화면에서 UI를 구성하는 방식은 여태것 한것과 큰 차이는 없지만 backgroundImage를 구성한 방식이 중요하다고 생각해 정리해보고자 한다.
+    이 화면에서 UI를 구성하는 방식은 여태것 한것과 큰 차이는 없지만 backgroundImage를 구성한 방식이 중요하다고 생각해 정리해보고자 한다.    
+<br>
+<br>
+<br>
+
 
 **frame**
 - Image는 기본적으로 주어진 공간과 관계없이 원본 이미지 사이즈 크기로 적용된다.
