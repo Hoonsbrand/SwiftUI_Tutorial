@@ -14,10 +14,10 @@ struct ContentView: View {
                 Image("backgroundImage")
                     .frame(height: 10)
                     .offset(y: -1550)
-                    .overlay(            // 뷰를 중첩시킨다.
-                        Rectangle()
-                            .fill(Color.purple)
-                    )
+//                    .overlay(            // 뷰를 중첩시킨다.
+//                        Rectangle()
+//                            .fill(Color.purple)
+//                    )
                 
                 CircleImageView()
                 
