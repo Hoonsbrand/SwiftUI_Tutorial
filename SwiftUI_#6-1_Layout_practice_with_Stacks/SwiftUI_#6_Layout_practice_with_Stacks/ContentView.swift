@@ -35,12 +35,10 @@ struct ContentView: View {
                     VStack {
                         MyProjectCard()
                         MyBasicCard()
-                        MyBasicCard()
-                        MyBasicCard()
-                        MyBasicCard()
-                        MyBasicCard()
-                        MyBasicCard()
-                        MyBasicCard()
+                        MyCard(icon: "tray.fill", title: "책상 정리하기", start: "10 AM", end: "11 AM", bgColor: Color.blue)
+                        MyCard(icon: "tv.fill", title: "영상 다시보기", start: "8 AM", end: "9 AM", bgColor: Color.blue)
+                        MyCard(icon: "cart.fill", title: "마트 장보기", start: "10 AM", end: "11 AM", bgColor: Color.blue)
+                        MyCard(icon: "gamecontroller.fill", title: "오버워치 한판하기", start: "2 PM", end: "3 PM", bgColor: Color.blue)
                     }
                     .padding()
                 }
@@ -67,4 +65,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
 

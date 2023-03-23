@@ -13,6 +13,7 @@
 		724B6D7C29C9DB93009AD172 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 724B6D7B29C9DB93009AD172 /* Preview Assets.xcassets */; };
 		724B6D8329C9DC02009AD172 /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724B6D8229C9DC02009AD172 /* MyProjectCard.swift */; };
 		724B6D8529C9E060009AD172 /* MyBasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724B6D8429C9E060009AD172 /* MyBasicCard.swift */; };
+		724B6D8729CC7F7B009AD172 /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724B6D8629CC7F7B009AD172 /* MyCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		724B6D7B29C9DB93009AD172 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		724B6D8229C9DC02009AD172 /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
 		724B6D8429C9E060009AD172 /* MyBasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicCard.swift; sourceTree = "<group>"; };
+		724B6D8629CC7F7B009AD172 /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				724B6D7A29C9DB93009AD172 /* Preview Content */,
 				724B6D8229C9DC02009AD172 /* MyProjectCard.swift */,
 				724B6D8429C9E060009AD172 /* MyBasicCard.swift */,
+				724B6D8629CC7F7B009AD172 /* MyCard.swift */,
 			);
 			path = "SwiftUI_#6_Layout_practice_with_Stacks";
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				724B6D8329C9DC02009AD172 /* MyProjectCard.swift in Sources */,
 				724B6D7729C9DB92009AD172 /* ContentView.swift in Sources */,
 				724B6D8529C9E060009AD172 /* MyBasicCard.swift in Sources */,
+				724B6D8729CC7F7B009AD172 /* MyCard.swift in Sources */,
 				724B6D7529C9DB92009AD172 /* SwiftUI__6_Layout_practice_with_StacksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
