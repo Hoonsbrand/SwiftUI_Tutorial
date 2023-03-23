@@ -137,6 +137,7 @@ struct MyProjectCard: View {
 2. 버튼을 누르면 shouldShowAlert의 값을 true로 변경한다.
 3. View 프로토콜의 modifier인 alert(...)를 사용해 창을 띄운다. **.alert**는 더욱 선언적으로 alert를 사용할 수 있다.
 4. **isPresented**가 true일 때 alert를 띄우는데 Button의 action에서 shouldShowAlert의 값을 true로 변경하여 알림이 뜬다.
-5. alert이 노출될 때 @State 프로퍼티(shouldShowAlert)를 true로 설정해주고, 사용자가 alert를 해제하면 이 값은 자동으로 false로 변경되고 alert는 사라진다.
+5. alert가 노출될 때 @State 프로퍼티(shouldShowAlert)를 true로 설정해주며 사용자가 alert를 해제하면
+    이 값은 자동으로 false로 변경되고 alert는 사라진다.
 
 
