@@ -1,5 +1,5 @@
 
-# ContentView 알아보기
+# some 알아보기
 
 ```swift
 
